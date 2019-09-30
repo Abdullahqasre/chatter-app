@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>chatter|app</title>
+	<style>
+		*{
+			font-family:Roboto, Arial, Sans-serif;
+		}
+		h1, h2{
+			color:#00838f;
+		}
+		h2{
+			font-size:smaller;
+		}
+		p{
+			background-color:#eeeeee;
+		}
+		button{
+			background-color:#00838f;
+			color:white;
+			text-transfor:uppercase;
+		}
+	</style>
+</head>
+<body>
+	<!-- The semantic element for the header of the App-->
+	<header>
+		<h1>Chatter | App</h1>
+	</header>
+	<!-- html5 main element is used for holding all the app content-->
+	<main>
+		<div> <!-- this div section holds to chat groups -->
+			<h2>Favorites</h2>
+			<div>
+				<strong>MeetUp</strong><small>11:51</small>
+			</div>
+			<div>
+				<strong>Oktoberfest</strong><small>10:51</small>
+			</div>
+		</div>
+
+		<div> <!-- this is the second div for holding the second chat groups-->
+			<h2>Regular</h2>
+			<div>
+				<strong>WeatherChannel</strong><small> 23 july 2019</small>
+			</div>
+			<div>
+				<strong>SevenContinents</strong><small> 20 october 2018</small>
+			</div>
+		</div>
+		<div class="chat-area"> <!-- all the chatting messages go here-->
+			<h1>MeetUp</h1>
+			<button>Favorite</button>
+			<h2>cssUser</h2>
+			<p>
+				Lets try styling our greate app, Styling is a little bit challenging.
+			</p>
+			<small>11:40</small>
+			<h2>htmlUser</h2>
+			<p>
+				I am responsible for structuring the app sections, We should be carefull about semantic elements.
+			</p>
+			<small>11:45</small>
+			<h2>javaScriptUser</h2>
+			<p>
+				Giving interactivity to apps is the most challenging part in creating any websites and apps, So let me do it in a smart and creative way.
+			</p>
+			<small>11:46</small>
+		</div>  <!-- end of chat area-->
+		<input type="text" name="message"><button>Send</button>
+	</main>
+	<footer>
+		<p>&copy;2019 by Abdullah Sh. Hamad</p>
+	</footer>
+</body>
+</html>
